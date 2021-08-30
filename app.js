@@ -64,7 +64,7 @@ document.querySelector(".playBtn").onclick = function(){
             whackImg.remove();
         };
 
-        setTimeout(blankImg,750);
+        setTimeout(blankImg,500);
     };
 
 
