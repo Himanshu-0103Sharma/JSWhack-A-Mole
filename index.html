@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Whack-A-Mole</title>
+</head>
+<body>
+    <div class = "screen">
+        <video class = 'back_vid' src = 'back_vid.mp4' autoplay loop muted></video>
+        <div class="overlay"></div>
+        <div class="grid">
+            <h1 class = "title" style = "color: navajowhite;">Whack-A-Mole</h1>
+            <h2 class = "scoreBoard none">Score : <span class = "score_num">0</span></h2>
+            <h2 class = "countDown none">CountDown : <span class = "count_num">60</span> s</h2>
+            <button class = "playBtn">PLAY GAME</button>
+            <div class="tableSq">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
